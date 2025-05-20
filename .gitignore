@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variable files
+.env
+
+# Instance folders (common in Flask/Django)
+instance/
+
+# Log files
+*.log
+
+# Distribution and build artifacts
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test caches and reports
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Editor swap files
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db 
+
+# session files
+*.session
+
